@@ -1,0 +1,4 @@
+title: Engineering Notes
+description: Field notes on silent failures, fallbacks, and reliability in production systems.
+theme: minima
+markdown: kramdown
