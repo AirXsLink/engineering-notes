@@ -93,7 +93,7 @@ The harder conclusion: **prompts can only adjust what the model already knows ho
 
 The action pose kept failing at "sitting and holding a bowl of white rice." Many prompt revisions, no improvement.
 
-Then I counted the training set: of 184 frames, **177 had props = none.** The rest were 3 cookies, 1 loaf of bread, 1 donut, and 1 lollipop.
+Then I counted the training set: of 183 frames, **177 had props = none.** The rest were 3 cookies, 1 loaf of bread, 1 donut, and 1 lollipop.
 
 The model had no concept of "white rice." No prompt could fix that.
 

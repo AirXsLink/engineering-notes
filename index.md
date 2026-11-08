@@ -27,3 +27,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 ## Note on the numbers
 
 All timestamps, counts, ratios, and costs in these articles are examples drawn from actual operation. They are not universal benchmarks. Identities, platforms, and paths have been redacted.
+
+## License
+
+© 2026 Engineering Notes contributors. The articles are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](https://github.com/AirXsLink/engineering-notes/blob/main/LICENSE) for the full text.

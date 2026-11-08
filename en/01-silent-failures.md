@@ -35,7 +35,7 @@ layout: default
 
 One afternoon someone asked: "Is the bot gone?"
 
-It had been down for 25 hours. Seven of nine ports were down, and no process was running. The logs showed no crash. The last line was "connection lost, reconnecting in 5 seconds," and after that, silence.
+It had been down for 25 hours. Eight of nine ports were down, and no process was running. The logs showed no crash. The last line was "connection lost, reconnecting in 5 seconds," and after that, silence.
 
 The process had not crashed. It had been stopped, and nothing restarted it. The machine had been up for six days, but the startup entries covered only the memory service. The message bridge, the dialogue service, and the image generator all depended on someone starting them by hand.
 
@@ -49,7 +49,7 @@ Two cases, one theme: a service can stop working without ever telling you.
 
 ### F1 · The stack was down for 25 hours
 
-**Symptom.** The status page refused connections. Seven of nine ports were down. No process existed. The logs ended 25 hours earlier.
+**Symptom.** The status page refused connections. Eight of nine ports were down. No process existed. The logs ended 25 hours earlier.
 
 **Cause.** No supervision. Once the processes were stopped or killed, nothing brought them back. Startup entries covered only the memory stack; the core services were started by hand.
 
