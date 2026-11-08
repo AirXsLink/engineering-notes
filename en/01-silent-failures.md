@@ -209,7 +209,7 @@ Interval tests pass. Bugs live at the boundary.
 
 **Fix.** An expired window returns "no slot," never a new window. The next message starts a new draw. If the discussion has already been answered, images and emoji only enter the context and no longer trigger a reply.
 
-**Verified.** 15 boundary tests passed: the second message in the same window is blocked; expiry does not recreate the window; expiry starts a new draw; emoji does not trigger a reply in an answered discussion; a mention overrides the draw.
+**Verified.** 15 boundary tests passed: the second message in the same window is blocked; expiry does not recreate the window; expiry starts a new draw; emoji does not trigger a reply in an answered discussion; a mention overrides the draw. The suite was later extended to 22 tests to cover concurrent media.
 
 **Takeaway.** The most fragile point of a state machine is **the instant of the boundary**. Test "the window just expired," not just inside and outside.
 

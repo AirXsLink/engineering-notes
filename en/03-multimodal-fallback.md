@@ -94,6 +94,8 @@ When the buffer expires and a caption is still in flight, recheck every 2 second
 
 Rule: after removing punctuation, fewer than three meaningful characters means invalid.
 
+Two more rules came later: placeholder density (four or more `□`-style characters, more than twice the meaningful characters) and prompt echo (two or more instruction phrases copied back). A too-short transcription is no longer retried as transcription; the adapter asks for a plain description instead. All three rules came from real misfires.
+
 **Why not drop it:** dropping the image and using a placeholder are different. If you drop the image, the model believes no image was sent. A placeholder at least preserves the fact that an image arrived and could not be read.
 
 **The more important step:** apply the check at the **injection point** as well, not only at the generation point. Generation-side guards can be bypassed by a new model, a cache, or an external API. The injection point is the only mandatory gate.

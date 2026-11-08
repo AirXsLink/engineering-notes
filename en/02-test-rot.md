@@ -110,7 +110,7 @@ The third case was missing. A message could be **received** inside the window bu
 
 "Inside" and "outside" were both tested. Nobody tested "the window just expired while the buffer was still running."
 
-**Fix:** an expired window returns "no slot"; the next message starts a new draw. Add 15 boundary tests, three of which target "the instant of expiry."
+**Fix:** an expired window returns "no slot"; the next message starts a new draw. Add 15 boundary tests, three of which target "the instant of expiry"; the suite was later extended to 22 to cover concurrent media.
 
 **Takeaway:** state-machine bugs live at boundaries. Test "just expired," "exactly equal," and "just past the edge," not two calm intervals.
 

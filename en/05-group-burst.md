@@ -67,10 +67,10 @@ The design:
 | Message type | Consumes the one-reply slot? | Notes |
 |---|---|---|
 | Text | Yes | Main path: draw + window |
-| Image / emoji (caption available) | No | Has its own pending and push logic |
-| Image / emoji (discussion already answered) | No push; context only | Prevents repeated answers |
+| Image / emoji (first in the discussion) | Yes; the slot is claimed on push | Has its own pending and push logic |
+| Image / emoji (already answered, or later in the same batch) | No push; context only | Prevents repeated answers |
 
-The third row was added later, after a production incident (next section).
+The last two rows were added later, after a production incident (next section): the third prevents a re-answer, the second prevents a batch of N images from producing N replies — the first one to arrive claims the slot, the rest enter the context only.
 
 ---
 
