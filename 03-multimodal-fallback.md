@@ -148,8 +148,9 @@ layout: default
 
 - https://github.com/AirXsLink/multimodal-preprocess-kit
 - 纯函数，零网络、零文件 IO、零模型调用
-- 五个接口：`decide` / `should_retry_caption` / `choose_caption_mode` / `can_use_thumbnail` / `can_borrow_other_media`
-- 只依赖标准库，8 个测试
+- 五个核心接口：`decide` / `should_retry_caption` / `choose_caption_mode` / `can_use_thumbnail` / `can_borrow_other_media`
+- v0.2 又加了 `caption_quality.assess_caption` / `is_usable`（垃圾描述判废）
+- 只依赖标准库，35 个测试
 
 核心决策表：
 
@@ -163,7 +164,7 @@ layout: default
 | 没有本地文件 | 缩略图兜底（可关闭） |
 | 别的消息的图 | 默认不借 |
 
-库的 README 里写了一节 **“Where this kit deliberately stops”**，明确列出四个它**不负责**的偏差：失败语义、垃圾描述判废、长图重试门槛、缩略图判定。这些是调用方的责任，不是库的隐藏行为。
+库的 README 里写了 **“Where this kit deliberately stops”**。v0.1 列出四个刻意缺口：失败语义、垃圾描述判废、长图重试门槛、缩略图判定；v0.2 把「垃圾描述判废」做成了可选的 `caption_quality` 启发式，剩下三条仍是调用方的责任，不是库的隐藏行为。
 
 ---
 

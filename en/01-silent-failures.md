@@ -241,6 +241,6 @@ Interval tests pass. Bugs live at the boundary.
 
 Only some of these 14 cases came from "wrong code." Most came from **state, timing, fallback, and protocol parsing**. Their common shape: the process is alive, the logs are normal, and the user can feel that something is off.
 
-I later extracted three of the multimodal decisions — short-caption retry, deferral while the caption is pending, and failure fallback — into a small standalone library. The rest stay in this archive as an index for the next investigation.
+I later extracted three of the multimodal decisions — short-caption retry, deferral while the caption is pending, and failure fallback — into a small standalone library; v0.2 added garbage-caption detection, making it four. The rest stay in this archive as an index for the next investigation.
 
 > If you also run a self-hosted service that "looks fine": add a check that can fail, then add a fallback that does not swallow its own exceptions.

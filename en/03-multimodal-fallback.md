@@ -146,8 +146,9 @@ So I extracted them into a small library: **multimodal-preprocess-kit**.
 
 - https://github.com/AirXsLink/multimodal-preprocess-kit
 - Pure functions. No network, no file I/O, no model calls.
-- Five entry points: `decide`, `should_retry_caption`, `choose_caption_mode`, `can_use_thumbnail`, and `can_borrow_other_media`.
-- Standard library only. Eight tests.
+- Five core entry points: `decide`, `should_retry_caption`, `choose_caption_mode`, `can_use_thumbnail`, and `can_borrow_other_media`.
+- v0.2 adds `caption_quality.assess_caption` / `is_usable` for garbage-caption detection.
+- Standard library only. 35 tests.
 
 The core decision table:
 
@@ -161,7 +162,7 @@ The core decision table:
 | No local file | thumbnail fallback (can be disabled) |
 | Media from another message | not borrowed by default |
 
-The README has a section called **"Where this kit deliberately stops."** It lists four gaps the library intentionally does not cover: failure semantics, garbage-caption detection, text-heavy retry gating, and thumbnail semantics. Those belong to the adapter, not to hidden library behavior.
+The README has a section called **"Where this kit deliberately stops."** v0.1 listed four gaps: failure semantics, garbage-caption detection, text-heavy retry gating, and thumbnail semantics. v0.2 turns garbage-caption detection into the optional `caption_quality` heuristic; the other three still belong to the adapter, not to hidden library behavior.
 
 ---
 
