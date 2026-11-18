@@ -6,6 +6,8 @@ layout: default
 
 Field notes on the failures that never throw an error: incident archives, test rot, multimodal fallbacks, character consistency, group-chat pacing, and GUI automation.
 
+15 bilingual notes across six threads: incident archives and reliability, group-chat behavior, multimodal and character, memory, relationships, and sending/platforms.
+
 ## 中文
 
 - [01. 14 个不报错的失败](01-silent-failures.md) — 14 个静默故障，没有一个抛异常

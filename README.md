@@ -2,6 +2,8 @@
 
 Field notes on silent failures, fallbacks, and reliability in production systems.
 
+15 bilingual notes across six threads: incident archives and reliability, group-chat behavior, multimodal and character, memory, relationships, and sending/platforms.
+
 ## 中文
 
 - [01. 14 个不报错的失败](01-silent-failures.md)
