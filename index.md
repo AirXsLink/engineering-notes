@@ -19,6 +19,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [09. 同一批媒体，为什么回了两条：并发下的「占位」](09-concurrent-media.md) — 只读的闸门挡不住并发
 - [10. 引用了别人的图，为什么说看不到：跨人媒体的认领](10-quoted-media.md) — 防串台的规则会误伤显式引用
 - [11. 群聊里，什么时候该说话：主动发言的决策](11-proactive-speech.md) — 概率决定冒泡，结构决定像不像群里的人
+- [12. 记忆的三层：原话、事实与摘要](12-memory-layers.md) — 每层要能回答上一层答不了的问题
 
 ## English
 
@@ -33,6 +34,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [09. Why One Batch Produced Two Replies](en/09-concurrent-media.md) — a read-only gate cannot stop concurrency
 - [10. Quoting Someone Else's Image: Who Claims the Media?](en/10-quoted-media.md) — anti-mixup rules hurt explicit quotes
 - [11. When to Speak in a Group Chat: Deciding to Join](en/11-proactive-speech.md) — probability pops up; structure belongs
+- [12. Three Layers of Memory: Verbatim, Facts, and Summaries](en/12-memory-layers.md) — each layer must answer what the previous cannot
 
 ## Note on the numbers
 
