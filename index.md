@@ -20,6 +20,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [10. 引用了别人的图，为什么说看不到：跨人媒体的认领](10-quoted-media.md) — 防串台的规则会误伤显式引用
 - [11. 群聊里，什么时候该说话：主动发言的决策](11-proactive-speech.md) — 概率决定冒泡，结构决定像不像群里的人
 - [12. 记忆的三层：原话、事实与摘要](12-memory-layers.md) — 每层要能回答上一层答不了的问题
+- [13. 群黑话表：让机器人听懂「每个字都认识，连起来不懂」](13-group-glossary.md) — 黑话是群内约定，不是生词
 
 ## English
 
@@ -35,6 +36,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [10. Quoting Someone Else's Image: Who Claims the Media?](en/10-quoted-media.md) — anti-mixup rules hurt explicit quotes
 - [11. When to Speak in a Group Chat: Deciding to Join](en/11-proactive-speech.md) — probability pops up; structure belongs
 - [12. Three Layers of Memory: Verbatim, Facts, and Summaries](en/12-memory-layers.md) — each layer must answer what the previous cannot
+- [13. A Group Glossary: Understanding Slang You Can Read but Not Parse](en/13-group-glossary.md) — slang is a group-local convention
 
 ## Note on the numbers
 
