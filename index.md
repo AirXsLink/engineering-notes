@@ -22,6 +22,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [12. 记忆的三层：原话、事实与摘要](12-memory-layers.md) — 每层要能回答上一层答不了的问题
 - [13. 群黑话表：让机器人听懂「每个字都认识，连起来不懂」](13-group-glossary.md) — 黑话是群内约定，不是生词
 - [14. 把关系做成状态机：八个维度、六个阶段与提案审批](14-relationship-state-machine.md) — 关系是状态，不是描述
+- [15. 选群聊 Agent 平台时，该问的八个问题](15-platform-checklist.md) — 平台列表决定能不能接，八个问题决定像不像人
 
 ## English
 
@@ -39,6 +40,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [12. Three Layers of Memory: Verbatim, Facts, and Summaries](en/12-memory-layers.md) — each layer must answer what the previous cannot
 - [13. A Group Glossary: Understanding Slang You Can Read but Not Parse](en/13-group-glossary.md) — slang is a group-local convention
 - [14. Relationship as a State Machine: Eight Dimensions, Six Stages, and Proposals](en/14-relationship-state-machine.md) — a relationship is state, not description
+- [15. Eight Questions to Ask Before Choosing a Group-Chat Agent Platform](en/15-platform-checklist.md) — the platform list connects; the questions decide
 
 ## Note on the numbers
 
