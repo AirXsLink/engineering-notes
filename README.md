@@ -13,6 +13,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [07. 记忆的写入端：什么该存，记到谁头上](07-memory-write-time.md)
 - [08. 心跳还在，消息不来：推送通道的静默故障](08-push-silence.md)
 - [09. 同一批媒体，为什么回了两条：并发下的「占位」](09-concurrent-media.md)
+- [10. 引用了别人的图，为什么说看不到：跨人媒体的认领](10-quoted-media.md)
 
 ## English
 
@@ -25,6 +26,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [07. The Write Side of Memory: What to Store, and Whose Fact It Is](en/07-memory-write-time.md)
 - [08. The Heartbeat Is Alive, the Messages Are Not](en/08-push-silence.md)
 - [09. Why One Batch Produced Two Replies](en/09-concurrent-media.md)
+- [10. Quoting Someone Else's Image: Who Claims the Media?](en/10-quoted-media.md)
 
 ## Note on the numbers
 
