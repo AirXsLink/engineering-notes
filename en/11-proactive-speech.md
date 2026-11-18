@@ -4,7 +4,7 @@ layout: default
 
 # When to Speak in a Group Chat: Deciding to Join
 
-> Note 05 was about "how many replies per discussion." This one is about the layer before it: whether to join this discussion, whom to answer, and when. It is a design note, not a postmortem of a shipped feature.
+> [Note 05](05-group-burst.md) was about "how many replies per discussion." This one is about the layer before it: whether to join this discussion, whom to answer, and when. It is a design note, not a postmortem of a shipped feature.
 >
 > A note on the numbers: the probabilities, counts, and seconds below are examples drawn from actual operation. They are not universal benchmarks.
 
@@ -81,9 +81,9 @@ The cost is hand-written rules. For a single-machine project, explainability mat
 Two layers, not one switch:
 
 - **Layer one**: should this discussion be joined (this note);
-- **Layer two**: once joined, how many replies (note 05).
+- **Layer two**: once joined, how many replies ([note 05](05-group-burst.md)).
 
-The window and slot in note 05 prevent flooding; this layer prevents joining at the wrong time. Both are needed before "feels like a member of the group" is even on the table.
+The window and slot in [note 05](05-group-burst.md) prevent flooding; this layer prevents joining at the wrong time. Both are needed before "feels like a member of the group" is even on the table.
 
 Do only layer one and you get "joins the right discussion, three times." Do only layer two and you get "not many replies, but each one lands at the wrong moment."
 

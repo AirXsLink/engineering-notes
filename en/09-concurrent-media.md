@@ -78,7 +78,7 @@ Now, of N items in one batch, the first claims the slot and pushes; the second f
 
 ## 5. How This Relates to the Previous Note
 
-Note 05 covered F13: **after a discussion has been answered, later media must be blocked.** That was a read gate.
+[Note 05](05-group-burst.md) covered F13: **after a discussion has been answered, later media must be blocked.** That was a read gate.
 
 What leaked here was different: **when a batch arrives together, who becomes the first one.** A read gate without a write gate means the first arrival also sees "not answered."
 
