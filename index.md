@@ -16,6 +16,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [06. GUI 自动化的可靠性](06-gui-automation.md) — 为什么「发送成功」不可信
 - [07. 记忆的写入端：什么该存，记到谁头上](07-memory-write-time.md) — 五条写入判据与两种主语错位
 - [08. 心跳还在，消息不来：推送通道的静默故障](08-push-silence.md) — 连接存活不等于业务活跃
+- [09. 同一批媒体，为什么回了两条：并发下的「占位」](09-concurrent-media.md) — 只读的闸门挡不住并发
 
 ## English
 
@@ -27,6 +28,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [06. Why "Sent Successfully" Means Nothing in GUI Automation](en/06-gui-automation.md) — the three defenses behind reliable sending
 - [07. The Write Side of Memory: What to Store, and Whose Fact It Is](en/07-memory-write-time.md) — five write rules and two attribution failures
 - [08. The Heartbeat Is Alive, the Messages Are Not](en/08-push-silence.md) — liveness is not activity
+- [09. Why One Batch Produced Two Replies](en/09-concurrent-media.md) — a read-only gate cannot stop concurrency
 
 ## Note on the numbers
 
