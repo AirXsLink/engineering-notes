@@ -17,6 +17,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [11. 群聊里，什么时候该说话：主动发言的决策](11-proactive-speech.md)
 - [12. 记忆的三层：原话、事实与摘要](12-memory-layers.md)
 - [13. 群黑话表：让机器人听懂「每个字都认识，连起来不懂」](13-group-glossary.md)
+- [14. 把关系做成状态机：八个维度、六个阶段与提案审批](14-relationship-state-machine.md)
 
 ## English
 
@@ -33,6 +34,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [11. When to Speak in a Group Chat: Deciding to Join](en/11-proactive-speech.md)
 - [12. Three Layers of Memory: Verbatim, Facts, and Summaries](en/12-memory-layers.md)
 - [13. A Group Glossary: Understanding Slang You Can Read but Not Parse](en/13-group-glossary.md)
+- [14. Relationship as a State Machine: Eight Dimensions, Six Stages, and Proposals](en/14-relationship-state-machine.md)
 
 ## Note on the numbers
 

@@ -21,6 +21,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [11. 群聊里，什么时候该说话：主动发言的决策](11-proactive-speech.md) — 概率决定冒泡，结构决定像不像群里的人
 - [12. 记忆的三层：原话、事实与摘要](12-memory-layers.md) — 每层要能回答上一层答不了的问题
 - [13. 群黑话表：让机器人听懂「每个字都认识，连起来不懂」](13-group-glossary.md) — 黑话是群内约定，不是生词
+- [14. 把关系做成状态机：八个维度、六个阶段与提案审批](14-relationship-state-machine.md) — 关系是状态，不是描述
 
 ## English
 
@@ -37,6 +38,7 @@ Field notes on the failures that never throw an error: incident archives, test r
 - [11. When to Speak in a Group Chat: Deciding to Join](en/11-proactive-speech.md) — probability pops up; structure belongs
 - [12. Three Layers of Memory: Verbatim, Facts, and Summaries](en/12-memory-layers.md) — each layer must answer what the previous cannot
 - [13. A Group Glossary: Understanding Slang You Can Read but Not Parse](en/13-group-glossary.md) — slang is a group-local convention
+- [14. Relationship as a State Machine: Eight Dimensions, Six Stages, and Proposals](en/14-relationship-state-machine.md) — a relationship is state, not description
 
 ## Note on the numbers
 
