@@ -10,6 +10,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [04. 把「不像」变成数字](04-character-consistency.md)
 - [05. 群聊机器人：一次讨论只回一条](05-group-burst.md)
 - [06. GUI 自动化的可靠性](06-gui-automation.md)
+- [07. 记忆的写入端：什么该存，记到谁头上](07-memory-write-time.md)
 
 ## English
 
@@ -19,6 +20,7 @@ Field notes on silent failures, fallbacks, and reliability in production systems
 - [04. Making "It Doesn't Look Like the Character" Measurable](en/04-character-consistency.md)
 - [05. One Topic, One Reply](en/05-group-burst.md)
 - [06. Why "Sent Successfully" Means Nothing in GUI Automation](en/06-gui-automation.md)
+- [07. The Write Side of Memory: What to Store, and Whose Fact It Is](en/07-memory-write-time.md)
 
 ## Note on the numbers
 
